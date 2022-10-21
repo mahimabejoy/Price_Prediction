@@ -12,15 +12,15 @@
 
 <body class="bg-dark">
   <div class="container">
-    <div class="row">
-      <div class="card" style="width:100%; height:100%; margin-top:50px">
+    <div class="row" style="position:center">
+      <div class="card" style="width:60%; height:60%; margin-top:50px;align-self: center">
         <div class="card-header" style="text-align:centre">
-          <h1>House Price Prediction</h1>
+          <h1>HOUSE PRICE PREDICTION</h1>
         </div>
-        <div class="card-body" style="text-aligh:centre">
+        <div class="card-body" style="text-align:centre">
         
           <form action="{{ url_for('predict')}}"method="post">
-            <input type="text" name="CRIM" placeholder="CRIM" required="required" /><br>
+            <input type="text" name="Crime Rate" placeholder="CRIM" required="required" /><br>
             <input type="text" name="ZN" placeholder="ZN" required="required" /><br>
             <input type="text" name="INDUS" placeholder="INDUS" required="required" /><br>
             <input type="text" name="CHAS" placeholder="CHAS" required="required" /><br>
