@@ -3,12 +3,6 @@
 HousePricePrediction is an end-to-end project focused on predicting house prices using machine learning. The project also includes deployment of a web application for interactive predictions.
 
 
-### Software And Tools Requirements
-
-1. HerokuAccount 
-2. VSCodeIDE
-3. GitCLI
-
 ## Features
 
 - Predicts house prices based on user input features.
